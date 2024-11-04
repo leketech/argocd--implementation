@@ -17,3 +17,6 @@ spec:
         image: leke1995/argocd-app:1.0
         ports:
         - containerPort: 8080
+        securityContext:
+          privileged: true
+
